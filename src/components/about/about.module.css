@@ -1,0 +1,87 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10.125rem 2.5rem 12.25rem 2.5rem;
+  
+  left: calc(50% - 1440px/2);
+  padding: 162px, 40px, 196px, 40px;
+  gap: 15rem;
+  justify-content: center;
+}
+
+.aboutContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.aboutButtonContainer {
+  display: flex;
+  align-items: center;
+  gap: 0.375rem;
+  flex-direction: row;
+}
+
+.aboutText {
+  width: 15.8125rem;
+  color: #FFFFFF;
+  font-family: "TWK Lausanne Pan 300";
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 130%; /* 1.3rem */
+}
+
+.aboutButton {
+  display: flex;
+  border: 1px solid #FFF;
+  border-radius: 6.25rem;
+  max-width: 93px;
+  height: 12px;
+  padding: 6px 12px;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+
+  color: #FFF;
+  font-family: "TWK Lausanne Pan 300";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  
+}
+
+.introduction {
+  max-width: 867px;
+  color: #FFF;
+  font-family: "TWK Lausanne Pan 300";
+  font-size: 3.25rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 120%; /* 3.9rem */
+  letter-spacing: -0.065rem;
+}
+
+.underline {
+  position: relative; /* Ensure the parent has a relative position */
+  text-decoration: none;
+  padding-bottom: 6px;
+  display: inline-block;
+  color: #FFF; /* Set the text color to white */
+}
+
+.underline::after {
+  content: ""; /* Add content property to ensure pseudo-element is generated */
+  position: absolute; /* Position the pseudo-element absolutely within the parent */
+  bottom: 0; /* Position it at the bottom */
+  left: 0; /* Align it with the left edge of the parent */
+  width: 100%;
+  height: 2px;
+  background-color: #FFF; /* Set the color of the underline */
+  box-shadow: 0px -1px 1px rgba(255, 255, 255, 0.979); /* Increase contrast with a darker shadow */
+  display: block;
+}
+

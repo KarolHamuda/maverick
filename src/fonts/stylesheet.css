@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'TWK Lausanne Pan 900';
+    src: url('TWKLausannePan-900Italic.woff2') format('woff2');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TWK Lausanne Pan 850';
+    src: url('TWKLausannePan-850Italic.woff2') format('woff2');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TWK Lausanne Pan 800';
+    src: url('TWKLausannePan-800Italic.woff2') format('woff2');
+    font-weight: 800;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TWK Lausanne Pan 850';
+    src: url('TWKLausannePan-850.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TWK Lausanne Pan 800';
+    src: url('TWKLausannePan-800.woff2') format('woff2');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TWK Lausanne Pan 900';
+    src: url('TWKLausannePan-900.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TWK Lausanne Pan 1000';
+    src: url('TWKLausannePan-1000.woff2') format('woff2');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TWK Lausanne Pan 950';
+    src: url('TWKLausannePan-950.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TWK Lausanne Pan 950';
+    src: url('TWKLausannePan-950Italic.woff2') format('woff2');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TWK Lausanne Pan 1000';
+    src: url('TWKLausannePan-1000Italic.woff2') format('woff2');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+

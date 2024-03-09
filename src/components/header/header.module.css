@@ -1,0 +1,64 @@
+.container {
+  display: inline-flex;
+  height: 63px;
+  width: 100%;
+  
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  
+}
+
+.link {
+  color: #FFF;
+  font-family: "TWK Lausanne Pan 300";
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 130%; /* 1.3rem */
+}
+
+.logoText {
+  color: #FFF;
+  font-family: "Apercu Pro";
+  font-size: 26.582px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -1.063px;
+}
+
+.linkContainer {
+  display: inline-flex;
+  align-items: flex-start;
+  justify-content: left;
+  gap: 25px;
+  margin-left: 40px;
+}
+
+.logoContainer {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+}
+
+.contactContainer {
+  display: inline-flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 6px;
+  margin-right: 40px;
+  width: 255px;
+}
+
+.contactLink {
+  color: #FFF;
+  font-family: "TWK Lausanne Pan 300";
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 130%; /* 1.3rem */
+}
