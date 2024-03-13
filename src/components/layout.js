@@ -5,6 +5,7 @@ import Header from "./header/header"
 import About from "./about/about"
 import Slideshow from "./slideshow/slideshow"
 import Services from "./services/services"
+import Elevate from "./elevate/elevate"
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -23,6 +24,7 @@ const Layout = ({ children }) => {
       <About />
       <Slideshow />
       <Services />
+      <Elevate />
     </>
   )
 }
