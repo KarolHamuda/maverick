@@ -2,13 +2,24 @@
   display: inline-flex;
   height: 63px;
   width: 100%;
-  
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   gap: 10px;
   flex-shrink: 0;
-  
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  background-color: black;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+
+
+.hidden {
+  opacity: 0;
+  transform: translateY(-100%); 
 }
 
 .link {
@@ -17,7 +28,7 @@
   font-size: 1rem;
   font-style: normal;
   font-weight: 300;
-  line-height: 130%; /* 1.3rem */
+  line-height: 130%; 
 }
 
 .logoText {
