@@ -2,13 +2,23 @@ import * as React from "react"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-import Header from "../components/header/header"
+import About from "../components/about/about"
+import Slideshow from "../components/slideshow/slideshow"
+import Services from "../components/services/services"
+import Elevate from "../components/elevate/elevate"
+import Design from "../components/design/design"
+import Selected from "../components/selected/selected"
 
 const IndexPage = () => (
   <>
-  <Header />
+  
   <Layout>
-
+  <About />
+      <Slideshow />
+      <Services />
+      <Elevate />
+      <Design />
+      <Selected />
   </Layout>
   </>
 )

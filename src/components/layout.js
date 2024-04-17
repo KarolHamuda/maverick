@@ -1,11 +1,6 @@
 import * as React from "react"
 import { useStaticQuery, graphql } from "gatsby"
-
-
-import About from "./about/about"
-import Slideshow from "./slideshow/slideshow"
-import Services from "./services/services"
-import Elevate from "./elevate/elevate"
+import Header from "../components/header/header"
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -20,11 +15,9 @@ const Layout = ({ children }) => {
 
   return (
     <>
+      <Header />
+      {children}
       
-      <About />
-      <Slideshow />
-      <Services />
-      <Elevate />
     </>
   )
 }

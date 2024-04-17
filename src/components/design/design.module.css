@@ -1,0 +1,107 @@
+.container {
+  max-width: 100%;
+  display: flex;
+  
+  justify-content: center;
+  align-items: center;
+  
+  overflow: hidden;
+}
+
+.contentContainer {
+  display: inline-flex;
+  gap: 4rem;
+  flex-direction: column;
+  align-items: flex-start;
+
+}
+
+.header {
+  display: flex;
+  align-items: flex-start;
+  align-content: flex-start;
+  justify-content: left;
+  flex-wrap: wrap;
+  
+
+  color: rgba(255, 255, 255, 0.60);
+  font-family: "TWK Lausanne Pan 300";
+  font-size: 3.25rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 110%;
+  letter-spacing: -0.065rem;
+  max-width: 40.2375rem;
+  margin-left: 2.88rem;
+  margin-bottom: 3rem;
+}
+
+.title {
+  color: #FFF;
+  font-family: "TWK Lausanne Pan 300";
+  font-size: 3.25rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 110%; /* 3.575rem */
+  letter-spacing: -0.065rem;
+  display: inline-block;
+}
+
+
+
+.canvas {
+  display: flex;
+  width: 90rem;
+  padding-left: 2.5rem;
+  align-items: flex-start;
+  
+  
+}
+
+.canvasBlock {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 3.25rem;
+}
+
+.canvasBlockElement {
+  display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 1rem;
+}
+
+.canvasTitle {
+  color: #FFF;
+  font-family: "TWK Lausanne Pan 300";
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 130%; /* 2.6rem */
+}
+
+.canvasContent {
+  color: #FFF;
+  font-family: "TWK Lausanne Pan 300";
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 130%; /* 1.3rem */
+  letter-spacing: -0.02rem;
+  width: 20rem;
+}
+
+.arrow {
+  display: flex;
+  padding: 0rem 2.5rem 9.12rem 2.5rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2.625rem;
+}
+
+.rectangle {
+  width: 85.0625rem;
+  height: 0.25rem;
+  background: linear-gradient(90deg, #EDFF23 0%, #000 15.5%);
+}
