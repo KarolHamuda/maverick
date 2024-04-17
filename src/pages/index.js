@@ -9,6 +9,7 @@ import Elevate from "../components/elevate/elevate"
 import Design from "../components/design/design"
 import Selected from "../components/selected/selected"
 import Button from "../components/button/button"
+import Aboutus from "../components/aboutus/aboutus"
 
 const IndexPage = () => (
   <>
@@ -21,6 +22,7 @@ const IndexPage = () => (
       <Design />
       <Selected />
       <Button />
+      <Aboutus />
   </Layout>
   </>
 )

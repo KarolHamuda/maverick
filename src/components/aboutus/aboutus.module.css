@@ -1,0 +1,103 @@
+.container {
+  max-width: 100%;
+  height: 45.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  overflow: hidden;
+}
+
+.contentContainer {
+  display: inline-flex;
+  
+  width: 76.3rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4.375rem;
+  padding-right: 9.19rem;
+  
+}
+
+.top {
+  display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 4.375rem;
+}
+
+.bottom {
+  display: flex;
+align-items: flex-start;
+gap: 4rem;
+}
+
+.header {
+  color: rgba(255, 255, 255, 0.60);
+  font-family: "TWK Lausanne Pan";
+  font-size: 3.25rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 110%;
+  letter-spacing: -0.065rem;
+  max-width: 28.1875rem;
+}
+
+.title {
+  color: #FFF;
+  font-family: "TWK Lausanne Pan 300";
+  font-size: 3.25rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 110%; /* 3.575rem */
+  letter-spacing: -0.065rem;
+  margin: 0;
+  
+  display: inline-flex
+}
+
+.texttitle {
+  color: #FFF;
+font-family: "TWK Lausanne Pan 300";
+font-size: 1rem;
+font-style: normal;
+font-weight: 300;
+line-height: 130%; /* 1.3rem */
+letter-spacing: -0.02rem;
+margin-bottom: 0.88rem;
+margin-top: 1.31rem;
+}
+
+
+
+.firstParagraph {
+  color: #FFF;
+  font-family: "TWK Lausanne Pan 300";
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 130%; /* 1.3rem */
+  letter-spacing: -0.02rem;
+  opacity: 0.6;
+  margin-bottom: 0.88rem;
+  width: 22.75rem;
+}
+
+.secondParagraph {
+  color: #FFF;
+  font-family: "TWK Lausanne Pan 300";
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 130%; /* 1.3rem */
+  letter-spacing: -0.02rem;
+  opacity: 0.6;
+  width: 22.75rem;
+}
+
+.line {
+  width: 85rem;
+height: 0.0625rem;
+  background: rgba(255, 255, 255, 0.15);
+  margin-bottom: 6rem;
+}
