@@ -1,6 +1,6 @@
 .container {
   max-width: 100%;
-  height: 121rem;
+  height: 122.5rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -128,6 +128,7 @@ font-style: normal;
 font-weight: 300;
 line-height: 130%; /* 1.95rem */
 letter-spacing: -0.03rem;
+padding-top: 1.5rem;
 }
 
 .textContent {

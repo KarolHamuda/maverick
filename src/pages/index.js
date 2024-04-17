@@ -8,6 +8,7 @@ import Services from "../components/services/services"
 import Elevate from "../components/elevate/elevate"
 import Design from "../components/design/design"
 import Selected from "../components/selected/selected"
+import Button from "../components/button/button"
 
 const IndexPage = () => (
   <>
@@ -19,6 +20,7 @@ const IndexPage = () => (
       <Elevate />
       <Design />
       <Selected />
+      <Button />
   </Layout>
   </>
 )
