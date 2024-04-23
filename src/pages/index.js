@@ -11,6 +11,8 @@ import Selected from "../components/selected/selected"
 import Button from "../components/button/button"
 import Aboutus from "../components/aboutus/aboutus"
 import Brands from "../components/brands/brands"
+import Chat from "../components/chat/chat"
+import Footer from "../components/footer/footer"
 
 const IndexPage = () => (
   <>
@@ -25,6 +27,8 @@ const IndexPage = () => (
       <Button />
       <Aboutus />
       <Brands />
+      <Chat />
+      <Footer />
   </Layout>
   </>
 )
