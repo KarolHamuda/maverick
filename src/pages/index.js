@@ -10,6 +10,7 @@ import Design from "../components/design/design"
 import Selected from "../components/selected/selected"
 import Button from "../components/button/button"
 import Aboutus from "../components/aboutus/aboutus"
+import Brands from "../components/brands/brands"
 
 const IndexPage = () => (
   <>
@@ -23,6 +24,7 @@ const IndexPage = () => (
       <Selected />
       <Button />
       <Aboutus />
+      <Brands />
   </Layout>
   </>
 )
