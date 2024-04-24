@@ -22,7 +22,7 @@ const About = () => {
           <div className={styles.aboutText}>
             Creative minds crafting distinctive symbols, shaping brands, and constructing identity systems tailored to individuals.
           </div>
-          <div className={styles.aboutButtonContainer} style={{ opacity: isHovering ? 0.1 : 1 }}>
+          <div className={`${styles.aboutButtonContainer} ${isHovering ? styles.hovering : ""}`}>
             <div className={styles.aboutButton} >
               ABOUT US
             </div>
