@@ -3,7 +3,7 @@ import * as styles from "./selected.module.css"
 
 const Selected = () => {
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id="selected">
       <div className={styles.contentContainer}>
         <div className={styles.shift}>
           <div className={styles.shiftContainer}>

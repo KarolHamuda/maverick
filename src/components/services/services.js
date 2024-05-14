@@ -3,7 +3,7 @@ import * as styles from "./services.module.css"
 
 const Services = () => {
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id="services">
     <div className={styles.contentContainer}>
 
       <div className={styles.header}>

@@ -17,7 +17,7 @@ const About = () => {
 
   return (
     <div className={styles.container}>
-      <div className={styles.contentContainer}>
+      <div className={styles.contentContainer} id="about">
         <div className={`${styles.aboutContainer} ${isHovering ? styles.hovering : ""}`}>
           <div className={styles.aboutText}>
             Creative minds crafting distinctive symbols, shaping brands, and constructing identity systems tailored to individuals.

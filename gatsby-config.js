@@ -24,6 +24,12 @@ module.exports = {
       },
     },
     `gatsby-transformer-sharp`,
+    {
+      resolve: "gatsby-plugin-anchor-links",
+      options: {
+        duration: 1500
+      }
+    },
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,

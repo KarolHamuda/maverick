@@ -1,11 +1,13 @@
 import React, { useState, useEffect } from "react"
 import { Link } from "gatsby"
 import * as styles from "./header.module.css"
+import { AnchorLink } from 'gatsby-plugin-anchor-links';
 
 const Header = () => {
   const [prevScrollPos, setPrevScrollPos] = useState(0);
   const [visible, setVisible] = useState(true);
   const [scrollDirection, setScrollDirection] = useState("none");
+  const [isHovered, setIsHovered] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -49,18 +51,45 @@ const Header = () => {
 return (
   <header className={`${styles.container} ${visible ? "" : styles.hidden}`}>
     <div className={styles.linkContainer}>
-      <Link className={styles.link}>
-        Home
+      <Link to="/#about" className={styles.link}>
+      <span className={styles.letter}>H</span>
+        <span className={styles.letter}>o</span>
+        <span className={styles.letter}>m</span>
+        <span className={styles.letter}>e</span>
+        
       </Link>
-      <Link className={styles.link}>
-        About
-      </Link>
-      <Link className={styles.link}>
-        Case Studies
-      </Link>
-      <Link className={styles.link}>
-        Services
-      </Link>
+      <AnchorLink to="#about" className={styles.link}>
+        
+        <span className={styles.letter}>A</span>
+        <span className={styles.letter}>b</span>
+        <span className={styles.letter}>o</span>
+        <span className={styles.letter}>u</span>
+        <span className={styles.letter}>t</span>
+      </AnchorLink>
+      <AnchorLink to="/#selected" className={styles.link}>
+      <span className={styles.letter}>C</span>
+        <span className={styles.letter}>a</span>
+        <span className={styles.letter}>s</span>
+        <span className={styles.letter}>e</span>
+        &nbsp;
+        <span className={styles.letter}>S</span>
+        <span className={styles.letter}>t</span>
+        <span className={styles.letter}>u</span>
+        <span className={styles.letter}>d</span>
+        <span className={styles.letter}>i</span>
+        <span className={styles.letter}>e</span>
+        <span className={styles.letter}>s</span>
+      </AnchorLink>
+      <AnchorLink to="/#services" className={styles.link}>
+      <span className={styles.letter}>S</span>
+        <span className={styles.letter}>e</span>
+        <span className={styles.letter}>r</span>
+        <span className={styles.letter}>v</span>
+        <span className={styles.letter}>i</span>
+        <span className={styles.letter}>c</span>
+        <span className={styles.letter}>e</span>
+        <span className={styles.letter}>s</span>
+      </AnchorLink>
     </div>
 
     <div className={styles.logoContainer}>

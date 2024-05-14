@@ -3,7 +3,7 @@ import * as styles from "./aboutus.module.css"
 
 const Aboutus = () => {
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id="aboutus">
       <div className={styles.contentContainer}>
         <div className={styles.top}>
         <div className={styles.header}>
