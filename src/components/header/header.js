@@ -58,7 +58,7 @@ return (
         <span className={styles.letter}>e</span>
         
       </Link>
-      <AnchorLink to="#about" className={styles.link}>
+      <AnchorLink to="/#aboutus" className={styles.link}>
         
         <span className={styles.letter}>A</span>
         <span className={styles.letter}>b</span>
@@ -113,8 +113,9 @@ return (
       </div>
       <div className={styles.pointer}>
         <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none">
-        <circle cx="12.5" cy="12" r="12" fill="#EDFF23"/>
-        <path d="M14.4304 15.9517L13.6634 15.1889L16.3267 12.5298H6.5V11.4219H16.3267L13.6634 8.75852L14.4304 8L18.4062 11.9759L14.4304 15.9517Z" fill="black"/>
+          <circle cx="12.5" cy="12" r="12" fill="#EDFF23" className={styles.circle}/>
+          <path d="M14.4304 15.9517L13.6634 15.1889L16.3267 12.5298H6.5V11.4219H16.3267L13.6634 8.75852L14.4304 8L18.4062 11.9759L14.4304 15.9517Z" fill="black" className={styles.arrow}/>
+          <path d="M14.4304 15.9517L13.6634 15.1889L16.3267 12.5298H6.5V11.4219H16.3267L13.6634 8.75852L14.4304 8L18.4062 11.9759L14.4304 15.9517Z" fill="black" className={styles.hiddenArrow}/>
         </svg>
       </div>
     </div>

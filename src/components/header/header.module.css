@@ -146,3 +146,38 @@
   font-weight: 300;
   line-height: 130%; /* 1.3rem */
 }
+
+.pointer {
+  position: relative;
+}
+
+.arrow {
+  transform: translateY(0px) translateZ(0) translateX(0px); /* Base state */
+  transition: transform 0.3s ease;
+}
+
+.hiddenArrow {
+  transform: translateX(-18px); /* Adjust the hidden position */
+  transition: transform 0.3s ease;
+   /* Make it invisible initially */
+}
+
+
+.contactContainer:hover .arrow {
+  
+  transform: translateY(0px) translateZ(0px) translateX(18px); /* Base state */
+  transition: transform 0.3s ease;
+  text-shadow: 0px 0px 0px rgb(255, 255, 255);
+}
+
+.contactContainer:hover .hiddenArrow {
+  
+  transform: translateY(0px) translateZ(0px) translateX(0px); /* Base state */
+  transition: transform 0.3s ease;
+  text-shadow: 0px 0px 0px rgb(255, 255, 255);
+}
+
+
+.contactContainer:hover .circle {
+  fill: white;
+}
