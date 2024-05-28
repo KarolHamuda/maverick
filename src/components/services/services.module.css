@@ -89,7 +89,9 @@
   border-radius: 2.5rem;
   border: 1px solid #FFF;
   overflow: hidden;
+  transition: opacity 0.3s ease; /* Smooth transition for opacity change */
 }
+
 
 
 
