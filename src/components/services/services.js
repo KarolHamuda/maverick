@@ -1,8 +1,8 @@
 import React, { useState, useRef } from 'react';
 import * as styles from './services.module.css';
-import servicesVideo from 'C:/Projects/maverick/src/images/services_1.mp4';
-import servicesImage1 from 'C:/Projects/maverick/src/images/services_2.png';
-import servicesImage2 from 'C:/Projects/maverick/src/images/services_3.png';
+import servicesVideo from '../../images/services_1.mp4';
+import servicesImage1 from '../../images/services_2.png';
+import servicesImage2 from '../../images/services_3.png';
 
 const Services = () => {
   const [hovered, setHovered] = useState(null);
