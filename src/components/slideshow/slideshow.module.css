@@ -1,77 +1,29 @@
 .imageContainer {
-  height: 33.75rem;
+  position: relative;
+  height: 67.125rem;
   display: flex;
-  max-width: 100%;
+
   flex-direction: row;
-  align-items: center;
+  align-items: flex-start; /* Align items to the bottom */
   justify-content: center;
-  gap: 4.25rem;
+  
   overflow: hidden;
+  --g:radial-gradient(55% 20px, #0009, #0000);  
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.60) 60%, #000 100%);
 }
 
-.Image {
-  width: 54.0625rem;
-height: 31.25rem;
+.image {
+  width: 80vw;
+  height: 100vh;
+  border-radius: 132.95456rem 132.95456rem 0rem 0rem;
+
+}
+
+.rectangle {
+  position: absolute;
+  width: 121.125rem;
+height: 15.75rem;
+margin-top: -22rem;
 flex-shrink: 0;
-
-border-radius: 1.25rem;
-background: #2344D6;
-}
-
-.smallLeftImage {
-  width: 46.1875rem;
-height: 26.75rem;
-flex-shrink: 0;
-border-radius: 1.25rem;
-background: rgba(160, 77, 246, 0.15);
-}
-
-.smallRightImage {
-  width: 46.1875rem;
-height: 26.75rem;
-flex-shrink: 0;
-border-radius: 1.25rem;
-background: rgba(160, 77, 246, 0.15);
-}
-
-.linkContainer {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  gap: 0.375rem;
-}
-
-.text {
-  color: #FFF;
-  font-family: "TWK Lausanne Pan 400";
-  font-size: 0.875rem;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 130%; /* 1.1375rem */
-}
-
-.textLink {
-  color: #FFF;
-  font-family: "TWK Lausanne Pan 300";
-  font-size: 0.875rem;
-  font-style: normal;
-  font-weight: 300;
-  line-height: 130%; /* 1.1375rem */
-
-  display: flex;
-  height: 1.5rem;
-  padding: 0.25rem 0.625rem;
-  justify-content: center;
-  align-items: center;
-
-  border-radius: 3.125rem;
-  border: 1px solid #FFF;
-}
-
-.pointerLink {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.60) 60%, #000 100%);
 }

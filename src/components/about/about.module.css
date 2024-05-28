@@ -1,6 +1,6 @@
 .container {
   max-width: 100%;
-  height: 56.25rem;
+  height: 44rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -10,7 +10,7 @@
 
 .contentContainer {
   display: inline-flex;
-  padding: 17.75rem 2.5rem 20.88rem 2.5rem;
+  padding: 14rem 2.5rem 12.5rem 2.5rem;
   align-items: center;
   gap: 16.0625rem;
   
