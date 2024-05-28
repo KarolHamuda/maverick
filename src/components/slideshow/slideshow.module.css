@@ -6,7 +6,6 @@
   align-items: flex-start; /* Align items to the start */
   justify-content: center;
   overflow: hidden;
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.60) 60%, #000 100%);
 }
 
 .image {
@@ -21,6 +20,7 @@
   height: 15.75rem;
   margin-top: -22rem;
   flex-shrink: 0;
+  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.60) 60%, #000 100%);
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.60) 60%, #000 100%);
 }
 

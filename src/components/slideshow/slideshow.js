@@ -11,7 +11,7 @@ const Slideshow = () => {
     const tl = gsap.timeline({ ease: 'none' });
 
     tl.from(`.${styles.image}`, {
-      scale: 0.6,
+      scale: 0.3,
       duration: 1,
       transformOrigin: 'top',
     }).to({}, { duration: 1 });
@@ -20,10 +20,10 @@ const Slideshow = () => {
       trigger: `.${styles.imageContainer}`,
       animation: tl,
       start: "top 80%",
-      end: "top 0%",
-      scrub: true,
+      end: "top -50%",
+      scrub: 1,
       toggleActions: "restart none none none",
-
+      
     });
   }, []);
 
