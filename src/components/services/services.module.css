@@ -86,13 +86,77 @@
   width: 21.875rem;
   height: 29.5rem;
   flex-shrink: 0;
-  border-radius: 2.5rem;
-  border: 1px solid #FFF;
+  border-radius: 2.1875rem;
+  border: 1px solid rgba(255, 255, 255, 0.25);
   overflow: hidden;
   transition: opacity 0.3s ease; /* Smooth transition for opacity change */
 }
 
+.videoContent {
+  margin-top: -28rem;
+  margin-left: 1.3rem;
+  width: 19rem;
+height: 11.125rem;
+flex-shrink: 0;
+border-radius: 1.25rem;
+border: 1px solid rgba(255, 255, 255, 0.25);
+background: rgba(0, 0, 0, 0.20);
+backdrop-filter: blur(12.5px);
+position: absolute;
+opacity: 0;
+visibility: hidden;
+transition: opacity 0.3s ease, visibility 0s linear 0.3s;
 
+}
+
+.image:hover .videoContent {
+  opacity: 1;
+  visibility: visible;
+  transition-delay: 0s;
+}
+
+.contentText {
+  margin: 1.25rem;
+  margin-bottom: 2rem;
+  width: 16.5rem;
+  color: #FFF;
+font-family: "TWK Lausanne Pan 300";
+font-size: 1rem;
+font-style: normal;
+font-weight: 300;
+line-height: 130%; /* 1.3rem */
+letter-spacing: -0.02rem;
+}
+
+.vector {
+  width: 4.375rem;
+height: 4.375rem;
+  fill: rgba(0, 0, 0, 0.01);
+stroke-width: 1px;
+stroke: rgba(255, 255, 255, 0.25);
+backdrop-filter: blur(12.5px);
+  position: absolute;
+  margin-top: -6rem;
+  margin-left: 16.4rem;
+}
+
+.vector svg {
+  transition: transform 0.5s ease, fill 0.5s ease; /* Smooth transition for rotation and fill color */
+}
+
+.image:hover .vector svg {
+  transform: rotate(90deg); /* Rotate the SVG vector 360 degrees */
+  fill: #EDFF23; /* Fill the SVG vector with yellow */
+}
+
+.cross {
+  fill: white;
+}
+
+.image:hover .cross {
+  
+  fill: black; /* Fill the SVG vector with yellow */
+}
 
 
 .list {
