@@ -1,10 +1,24 @@
-import React from 'react'
-import * as styles from "./services.module.css"
-import servicesGif from "C:/Projects/maverick/src/images/services_1.gif"
-import servicesImage1 from "C:/Projects/maverick/src/images/services_2.png"
-import servicesImage2 from "C:/Projects/maverick/src/images/services_3.png"
+import React, { useRef } from 'react';
+import * as styles from './services.module.css';
+import servicesVideo from 'C:/Projects/maverick/src/images/services_1.mp4';
+import servicesImage1 from 'C:/Projects/maverick/src/images/services_2.png';
+import servicesImage2 from 'C:/Projects/maverick/src/images/services_3.png';
 
 const Services = () => {
+  const videoRef = useRef(null);
+
+  const handleMouseEnter = () => {
+    if (videoRef.current) {
+      videoRef.current.play();
+    }
+  };
+
+  const handleMouseLeave = () => {
+    if (videoRef.current) {
+      videoRef.current.pause();
+    }
+  };
+
   return (
     <div className={styles.container} id="services">
       <div className={styles.contentContainer}>
@@ -20,8 +34,17 @@ const Services = () => {
             <div className={styles.title}>
               Brand Identity Design
             </div>
-            <div className={styles.image}>
-              <img src={servicesGif} alt="Brand Identity Design" style={{ width: '100%', height: '100%', borderRadius: '2.5rem' }} />
+            <div
+              className={styles.image}
+              onMouseEnter={handleMouseEnter}
+              onMouseLeave={handleMouseLeave}
+            >
+              <video
+                ref={videoRef}
+                src={servicesVideo}
+                muted
+                style={{ width: '100%', height: '100%', borderRadius: '2.5rem' }}
+              />
             </div>
             <div className={styles.list}>
               Logo Design{"\n"}Brand Identity{"\n"}Visual Identity{"\n"}Brand Guidelines{"\n"}Creative Direction
@@ -55,7 +78,7 @@ const Services = () => {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
-export default Services
+export default Services;

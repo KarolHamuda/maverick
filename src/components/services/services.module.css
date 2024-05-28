@@ -88,9 +88,9 @@
   flex-shrink: 0;
   border-radius: 2.5rem;
   border: 1px solid #FFF;
-  
-  overflow: hidden; /* Ensure content fits within the border */
+  overflow: hidden;
 }
+
 
 
 .list {
