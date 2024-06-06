@@ -1,9 +1,9 @@
 .container {
-  display: inline-flex;
+  display: flex;
   height: 63px;
   width: 100%;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   gap: 10px;
   flex-shrink: 0;
@@ -15,6 +15,14 @@
 
   backdrop-filter: blur(7.5px);
   transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.contentContainer {
+  width: 1440px;
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
 
