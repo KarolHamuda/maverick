@@ -1,6 +1,9 @@
-import * as React from "react"
-import { useStaticQuery, graphql } from "gatsby"
-import Header from "../components/header/header"
+import React from "react";
+import PropTypes from "prop-types";
+import { useStaticQuery, graphql } from "gatsby";
+import Header from "./header/header";
+import Scroll from "./locomotiveScroll";
+import "./locomotive-scroll.css";
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -11,15 +14,21 @@ const Layout = ({ children }) => {
         }
       }
     }
-  `)
+  `);
 
   return (
     <>
+      <Scroll />
       <Header />
-      {children}
-      
+      <div data-scroll-container>
+        {children}
+      </div>
     </>
-  )
-}
+  );
+};
 
-export default Layout
+Layout.propTypes = {
+  children: PropTypes.node.isRequired,
+};
+
+export default Layout;
