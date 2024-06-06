@@ -109,11 +109,17 @@ transition: opacity 0.3s ease, visibility 0s linear 0.3s;
 
 }
 
-.image:hover .videoContent {
-  opacity: 1;
-  visibility: visible;
-  transition-delay: 0s;
+.line {
+  display: flex;
+  width: 350px;
+height: 1px;
+
+top: 0px;
+opacity: 0.25;
+background: #FFF;
 }
+
+
 
 .contentText {
   margin: 1.25rem;
@@ -138,13 +144,14 @@ backdrop-filter: blur(12.5px);
   position: absolute;
   margin-top: -6rem;
   margin-left: 16.4rem;
+  border-radius: 50%;
 }
 
 .vector svg {
   transition: transform 0.5s ease, fill 0.5s ease; /* Smooth transition for rotation and fill color */
 }
 
-.image:hover .vector svg {
+.vector:hover svg {
   transform: rotate(90deg); /* Rotate the SVG vector 360 degrees */
   fill: #EDFF23; /* Fill the SVG vector with yellow */
 }
@@ -153,9 +160,16 @@ backdrop-filter: blur(12.5px);
   fill: white;
 }
 
-.image:hover .cross {
+.vector:hover .cross {
   
   fill: black; /* Fill the SVG vector with yellow */
+  transition: fill 0.3s ease;
+}
+
+.visible {
+  visibility: visible;
+  opacity: 1;
+  transition: opacity 0.3s ease;
 }
 
 
