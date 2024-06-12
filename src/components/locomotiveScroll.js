@@ -1,6 +1,5 @@
 import { useEffect } from "react";
 import LocomotiveScroll from "locomotive-scroll";
-import { scroll } from "../theme";
 import "locomotive-scroll/dist/locomotive-scroll.css"; // Adjust the path if necessary
 
 const Scroll = () => {
@@ -10,21 +9,31 @@ const Scroll = () => {
 
     const locomotiveScroll = new LocomotiveScroll({
       el: scrollContainer,
-      ...scroll.options,
+      smooth: true,
     });
 
-    locomotiveScroll.update();
+    locomotiveScroll.on("scroll", (instance) => {
+      document.documentElement.setAttribute("data-direction", instance.direction);
+      window.dispatchEvent(new CustomEvent('locoscroll', { detail: instance }));
+    });
 
-    // Expose to the global scope for ease of use
-    window.scroll = locomotiveScroll;
+    const handleAnchorClick = (event) => {
+      event.preventDefault();
+      const target = event.currentTarget.getAttribute('href');
+      if (target && locomotiveScroll) {
+        locomotiveScroll.scrollTo(target);
+      }
+    };
 
-    locomotiveScroll.on("scroll", (func) => {
-      // Update `data-direction` with scroll direction
-      document.documentElement.setAttribute("data-direction", func.direction);
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', handleAnchorClick);
     });
 
     return () => {
-      if (locomotiveScroll) locomotiveScroll.destroy();
+      locomotiveScroll.destroy();
+      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.removeEventListener('click', handleAnchorClick);
+      });
     };
   }, []);
 
