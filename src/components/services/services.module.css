@@ -54,7 +54,7 @@
 .titleContainer {
   width: 61rem;
   color: rgba(255, 255, 255, 0.60);
-  font-family: "TWK Lausanne Pan 400";
+  font-family: "TWK Lausanne Pan 300";
   font-size: 3.25rem;
   font-style: normal;
   font-weight: 400;
@@ -64,7 +64,7 @@
 
 .white {
   color: #FFF;
-  font-family: "TWK Lausanne Pan 400";
+  font-family: "TWK Lausanne Pan 300";
   font-size: 3.25rem;
   font-style: normal;
   font-weight: 400;
@@ -75,7 +75,7 @@
 
 .title {
   color: #FFF;
-  font-family: "TWK Lausanne Pan 400";
+  font-family: "TWK Lausanne Pan 300";
   font-size: 1.125rem;
   font-style: normal;
   font-weight: 400;
@@ -86,10 +86,14 @@
   width: 21.875rem;
   height: 29.5rem;
   flex-shrink: 0;
-  border-radius: 2.1875rem;
+  border-radius: 3rem;
   border: 1px solid rgba(255, 255, 255, 0.25);
   overflow: hidden;
   transition: opacity 0.3s ease; /* Smooth transition for opacity change */
+}
+
+.image img {
+  border: 1px solid rgba(255, 255, 255, 0.25);
 }
 
 .videoContent {
@@ -98,7 +102,7 @@
   width: 19rem;
 height: 11.125rem;
 flex-shrink: 0;
-border-radius: 1.25rem;
+border-radius: 2.1875rem;
 border: 1px solid rgba(255, 255, 255, 0.25);
 background: rgba(0, 0, 0, 0.20);
 backdrop-filter: blur(12.5px);

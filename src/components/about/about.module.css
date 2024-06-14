@@ -60,6 +60,10 @@
   
 }
 
+.aboutButton:hover {
+  cursor: none;
+}
+
 .introduction {
   max-width: 55rem;
   color: #FFF;

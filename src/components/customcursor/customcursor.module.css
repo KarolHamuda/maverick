@@ -1,0 +1,26 @@
+/* customcursor.module.css */
+
+.customCursor {
+  position: fixed;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  z-index: 9999;
+  cursor: none; /* Hide the default cursor */
+}
+
+.customCursor.hovered {
+  /* Add any hover styles as needed */
+}
+
+.cursorSVG {
+  width: 24px;
+  height: 24px;
+  transition: transform 0.2s ease-out, width 0.2s ease-out, height 0.2s ease-out;
+}
+
+.cursorSVG.hovered {
+  width: 82px;
+  height: 82px;
+  transform: translate(-50%, -50%);
+}

@@ -5,12 +5,91 @@ const Selected = () => {
   return (
     <div className={styles.container} id="selected">
       <div className={styles.contentContainer}>
+      <div className={styles.saas}>
+          <div className={styles.saasContainer}>
+            <div className={styles.saasHeader}>
+              <p className={styles.title}>
+              Selected work.{'\u00A0'}</p>Your vision, our passion. We're behind the marks.
+            </div>
+            <div className={styles.saasImageContainer}>
+              <div className={styles.saasImage} />
+            </div>
+            <div className={styles.textHeader}>
+            SaaSOpen Conference
+            </div>
+            <div className={styles.textContent}>
+            The big SaaS reunion
+            </div>
+            <div className={styles.textFooter}>
+              <div className={styles.textFooterElement}>
+              CONFERENCE BRANDING
+              </div>
+              <div className={styles.textFooterElement}>
+              CREATIVE DIRECTION
+              </div>
+              <div className={styles.textFooterElement}>
+              VISUAL IDENTITY
+              </div>
+              <div className={styles.textFooterElement}>
+              LOGO DESIGN
+              </div>
+              <div className={styles.textFooterElement}>
+              MARKETING
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className={styles.bottomContainer}>
+          <div className={styles.chum}>
+            <div className={styles.chumImageContainer}>
+              <div className={styles.chumImage} />
+            </div>
+            <div className={styles.textHeader}>
+            ChumChums
+            </div>
+            <div className={styles.textContent}>
+            Stay chummy out there!
+            </div>
+            <div className={styles.textFooter}>
+              <div className={styles.textFooterElement}>
+              LOGO DESIGN
+              </div>
+              <div className={styles.textFooterElement}>
+              CREATIVE DIRECTION
+              </div>
+              <div className={styles.textFooterElement}>
+              VISUAL IDENTITY
+              </div>
+            </div>
+          </div>
+          <div className={styles.trackable}>
+            <div className={styles.trackableImageContainer}>
+              <div className={styles.trackableImage} />
+            </div>
+            <div className={styles.textHeader}>
+              Trackable
+            </div>
+            <div className={styles.textContent}>
+              Transforming startup visions into reality
+            </div>
+            <div className={styles.textFooter}>
+              <div className={styles.textFooterElement}>
+              VISUAL IDENTITY
+              </div>
+              <div className={styles.textFooterElement}>
+              CREATIVE DIRECTION
+              </div>
+              <div className={styles.textFooterElement}>
+              LOGO DESIGN
+              </div>
+              <div className={styles.textFooterElement}>
+              REBRANDING
+              </div>
+            </div>
+          </div>
+          </div>
         <div className={styles.shift}>
           <div className={styles.shiftContainer}>
-            <div className={styles.shiftHeader}>
-              <p className={styles.title}>
-              Selected work.{'\u00A0'}</p>Expertise that our clients trust to drive their business forward.
-            </div>
             <div className={styles.shiftImageContainer}>
               <div className={styles.shiftImage} />
             </div>
@@ -22,13 +101,19 @@ const Selected = () => {
             </div>
             <div className={styles.textFooter}>
               <div className={styles.textFooterElement}>
-              VISUAL IDENTITY
+              CONFERENCE BRANDING
               </div>
               <div className={styles.textFooterElement}>
               CREATIVE DIRECTION
               </div>
               <div className={styles.textFooterElement}>
+              VISUAL IDENTITY
+              </div>
+              <div className={styles.textFooterElement}>
               LOGO DESIGN
+              </div>
+              <div className={styles.textFooterElement}>
+              MARKETING
               </div>
             </div>
           </div>
@@ -39,23 +124,20 @@ const Selected = () => {
               <div className={styles.poznanImage} />
             </div>
             <div className={styles.textHeader}>
-            Poznan City
+            Flowhub Maui 
             </div>
             <div className={styles.textContent}>
-            Where Tradition Meets Tomorrow
+            Go with the flow!
             </div>
             <div className={styles.textFooter}>
+              <div className={styles.textFooterElement}>
+              LOGO DESIGN
+              </div>
               <div className={styles.textFooterElement}>
               VISUAL IDENTITY
               </div>
               <div className={styles.textFooterElement}>
               CREATIVE DIRECTION
-              </div>
-              <div className={styles.textFooterElement}>
-              LOGO DESIGN
-              </div>
-              <div className={styles.textFooterElement}>
-              REBRANDING
               </div>
             </div>
           </div>
@@ -64,23 +146,23 @@ const Selected = () => {
             <div className={styles.stacknetImage} />
           </div>
             <div className={styles.textHeader}>
-            Stacknet
+            Daytona
             </div>
             <div className={styles.textContent}>
-            Transforming startup visions into reality
+            Empowering developers to focus on what matters
             </div>
             <div className={styles.textFooter}>
             <div className={styles.textFooterElement}>
-              VISUAL IDENTITY
+            LOGO DESIGN
               </div>
               <div className={styles.textFooterElement}>
               CREATIVE DIRECTION
               </div>
               <div className={styles.textFooterElement}>
-              LOGO DESIGN
+              VISUAL IDENTITY
               </div>
               <div className={styles.textFooterElement}>
-              REBRANDING
+              SAAS
               </div>
             </div>
           </div>

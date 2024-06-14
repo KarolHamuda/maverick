@@ -32,11 +32,10 @@ const Aboutus = () => {
             </svg>
             </div>
             <div className={styles.texttitle}>
-            What we do
+            Background
             </div>
             <div className={styles.firstParagraph}>
-            Maverick Studio, founded in 2017 by Mateusz Urbańczyk after graduating from Collegium Da Vinci with a degree in Graphic Design, swiftly embarked on its journey.
-            </div>
+            Maverick Studio, founded in 2017 by Mateusz Urbańczyk after graduating from Collegium Da Vinci with a degree in Graphic Design, swiftly embarked on its journey.</div>
             <div className={styles.secondParagraph}>
             The studio gained notable recognition in the press, primarily for its outstanding work on the Visual Identity system for Poznań.
             </div>
@@ -52,11 +51,9 @@ const Aboutus = () => {
             What we do
             </div>
             <div className={styles.firstParagraph}>
-            We are a concept-driven brand design agency dedicated to helping companies build, communicate, and fortify their brand identities.
-            </div>
+            We are a concept-driven brand design agency dedicated to helping companies build, communicate, and fortify their brand identities.</div>
             <div className={styles.secondParagraph}>
-            Additionally, we specialize in empowering companies to distinguish themselves in the bustling marketing landscape.
-            </div>
+            Additionally, we specialize in SaaS brands, we’ve created a several conference visual identities for Croatian global leader Infobip, Shift or US based companies like Founderpath and SaaSOpen.            </div>
           </div>
           <div className={styles.philosophy}>
             <div className={styles.image}>
@@ -69,10 +66,9 @@ const Aboutus = () => {
             Philosophy
             </div>
             <div className={styles.firstParagraph}>
-            If you seek a boutique agency committed to nurturing your brand and enhancing your visual identity in today's dynamic world, you've found your destination.
-            </div>
+            If you seek a boutique agency committed to nurturing your brand and enhancing your visual identity in today's dynamic world, you've found your destination.</div>
             <div className={styles.secondParagraph}>
-            Our journey began with a deep reverence for the symbols that envelop us, drawing inspiration from esteemed Polish designers such as Karol Śliwka and Henryk Tomaszewski.
+            We believe in a holistic approach, which is why we create flexible visual identity systems that simply work.
             </div>
           </div>
         </div>

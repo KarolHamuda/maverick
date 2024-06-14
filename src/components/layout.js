@@ -4,6 +4,7 @@ import { useStaticQuery, graphql } from "gatsby";
 import Header from "./header/header";
 import Scroll from "./locomotiveScroll";
 import "./locomotive-scroll.css";
+import CustomCursor from "./customcursor/customcursor";
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -18,6 +19,7 @@ const Layout = ({ children }) => {
 
   return (
     <>
+    <CustomCursor />
       <Scroll />
       <Header />
       <div data-scroll-container>
