@@ -110,7 +110,7 @@
 height: 46.5rem;
 flex-shrink: 0;
   border-radius: 2.5rem;
-  background: #2344D6;
+  
   overflow: hidden;
 
 }
@@ -124,7 +124,7 @@ flex-shrink: 0;
   height: 25rem;
   flex-shrink: 0;
   border-radius: 2.5rem;
-  background: #2344D6;
+ 
   overflow: hidden;
 
 }
@@ -139,7 +139,7 @@ flex-shrink: 0;
   height: 42.5rem;
   flex-shrink: 0;
   border-radius: 2.5rem;
-  background: #2344D6;
+  
   overflow: hidden;
  }
 
@@ -202,7 +202,7 @@ flex-shrink: 0;
 height: 46.5rem;
 flex-shrink: 0;
   border-radius: 2.5rem;
-  background: #2344D6;
+ 
   overflow: hidden;
 }
 
@@ -212,7 +212,7 @@ flex-shrink: 0;
   height: 42.5rem;
 
   border-radius: 2.5rem;
-  background: #2344D6;
+  
   overflow: hidden;
 }
 
