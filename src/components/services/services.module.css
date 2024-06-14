@@ -4,7 +4,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 12.5rem 0 7rem 0;
+  padding: 6rem 0 7rem 0;
   overflow: hidden;
 }
 
@@ -86,14 +86,14 @@
   width: 21.875rem;
   height: 29.5rem;
   flex-shrink: 0;
-  border-radius: 3rem;
+  border-radius: 35px;
   border: 1px solid rgba(255, 255, 255, 0.25);
   overflow: hidden;
   transition: opacity 0.3s ease; /* Smooth transition for opacity change */
 }
 
 .image img {
-  border: 1px solid rgba(255, 255, 255, 0.25);
+  
 }
 
 .videoContent {
@@ -102,8 +102,7 @@
   width: 19rem;
 height: 11.125rem;
 flex-shrink: 0;
-border-radius: 2.1875rem;
-border: 1px solid rgba(255, 255, 255, 0.25);
+
 background: rgba(0, 0, 0, 0.20);
 backdrop-filter: blur(12.5px);
 position: absolute;

@@ -81,7 +81,7 @@ const Services = () => {
               ref={videoRef}
               src={servicesVideo}
               muted
-              style={{ width: '100%', height: '100%', borderRadius: '2.5rem' }}
+              style={{ width: '120%', height: '100%', objectFit: 'fill'}}
             />
             <div className={`${styles.videoContent} ${visibleContent === 'brand' ? styles.visible : ''}`}>
               <div className={styles.contentText}>
@@ -108,7 +108,7 @@ const Services = () => {
               onMouseLeave={handleMouseLeave}
               style={{ opacity: hovered && hovered !== 'image1' ? 0.6 : 1 }}
             >
-              <img src={servicesImage1} alt="Content Service" style={{ width: '100%', height: '100%', borderRadius: '2.5rem' }} />
+              <img src={servicesImage1} alt="Content Service" style={{ width: '100%', height: '100%' }} />
               <div className={styles.videoContent + (visibleContent === 'content' ? ' ' + styles.visible : '')}>
                 <div className={styles.contentText}>
                   Branding. We are here for the long term, helping you address your needs and challenges. With our subscription, it's easy to add requests and let us handle them one by one with top-quality care.
@@ -134,7 +134,7 @@ const Services = () => {
               onMouseLeave={handleMouseLeave}
               style={{ opacity: hovered && hovered !== 'image2' ? 0.6 : 1 }}
             >
-              <img src={servicesImage2} alt="Website Design Service" style={{ width: '100%', height: '100%', borderRadius: '2.5rem' }} />
+              <img src={servicesImage2} alt="Website Design Service" style={{ width: '100%', height: '100%'}} />
               <div className={styles.videoContent + (visibleContent === 'website' ? ' ' + styles.visible : '')}>
                 <div className={styles.contentText}>
                   Branding. We are here for the long term, helping you address your needs and challenges. With our subscription, it's easy to add requests and let us handle them one by one with top-quality care.
