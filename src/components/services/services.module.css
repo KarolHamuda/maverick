@@ -105,42 +105,39 @@ object-fit: fill;
 .videoContent {
   margin-top: -28rem;
   margin-left: 1.3rem;
-  width: 19rem;
-height: 11.125rem;
-flex-shrink: 0;
-
-background: rgba(0, 0, 0, 0.20);
-backdrop-filter: blur(12.5px);
-position: absolute;
-opacity: 0;
-visibility: hidden;
-transition: opacity 0.3s ease, visibility 0s linear 0.3s;
-
+  border-radius: 1.25rem;
+  flex-shrink: 0;
+  backdrop-filter: blur(12.5px);
+  position: absolute;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0s linear 0.3s;
 }
 
 .line {
   display: flex;
   width: 350px;
-height: 1px;
-
-top: 0px;
-opacity: 0.25;
-background: #FFF;
+  height: 1px;
+  top: 0px;
+  opacity: 0.25;
+  background: #FFF;
 }
 
 
 
 .contentText {
-  margin: 1.25rem;
-  margin-bottom: 2rem;
+  padding: 1.25rem;
   width: 16.5rem;
   color: #FFF;
-font-family: "TWK Lausanne Pan 300";
-font-size: 1rem;
-font-style: normal;
-font-weight: 300;
-line-height: 130%; /* 1.3rem */
-letter-spacing: -0.02rem;
+  font-family: "TWK Lausanne Pan 300";
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 130%; /* 1.3rem */
+  letter-spacing: -0.02rem;
+
+border-radius: 1.25rem;
+border: 1px solid rgba(255, 255, 255, 0.25);
 }
 
 .vector {
