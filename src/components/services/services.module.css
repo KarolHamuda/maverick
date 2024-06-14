@@ -92,8 +92,14 @@
   transition: opacity 0.3s ease; /* Smooth transition for opacity change */
 }
 
-.image img {
-  
+.movieVideo { 
+width: 125%;
+height: 100%;
+margin-left: -35px;
+display: flex;
+justify-content: center;
+align-items: center;
+object-fit: fill;
 }
 
 .videoContent {

@@ -81,7 +81,7 @@ const Services = () => {
               ref={videoRef}
               src={servicesVideo}
               muted
-              style={{ width: '120%', height: '100%', objectFit: 'fill'}}
+              className={styles.movieVideo}
             />
             <div className={`${styles.videoContent} ${visibleContent === 'brand' ? styles.visible : ''}`}>
               <div className={styles.contentText}>
